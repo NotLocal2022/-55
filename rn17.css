@@ -1,0 +1,72 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box
+    {
+    position: absolute;
+    top: 34.5%;
+    left: 3%;
+    width: 12%;
+    height: 17%;
+    background: #c5626a;
+    border-radius: 50%;
+  }
+
+
+    .engine{
+        position: absolute;
+        width: 60%;
+        height: 65%;
+        left: -20%;
+        top: 5%;
+        background: rgb(83, 77, 117);
+        border-radius: 50%;
+        z-index: 1;
+        color: b;
+      }
+    
+      .eye{
+        position: absolute;
+        background: white;
+        width: 20%;
+        height: 27%;
+        top: 25%;
+        left: 50%;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      
+      .pupil{
+        position: absolute;
+        width: 28%;
+        height: 30%;
+        top: 35%;
+        left: 36%;
+        border-radius: 50%;
+        background: #27354A;
+      }
+
+      .circular-wheel {
+        width: 200px;
+        height: 100px;
+        top: 10%;
+        left: 50%;
+        background: red;
+        -moz-border-radius: 100px / 50px;
+        -webkit-border-radius: 100px / 50px;
+        border-radius: 100px / 50px;
+      }
+      
+      .box{
+        animation-name: box;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        font-size: 20px;
+        font-weight: bold;
+        color:red;
+        }
+        @keyframes box{
+        from{margin-left: 4px;}
+        to{margin-left: 1200px;}
+        }
